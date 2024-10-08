@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex; 
+    flex-wrap: wrap;
+    background-color: #00cec9;
+    /* background-image: url(src/bg.jpg); */
+    padding-bottom: 50px;
+}
+
+/* #main img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+
+#addBtn{
+    border: #000000;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+    padding: 5px;
+    background-color: bisque;
+    border-radius: 7px;
+    font-weight: 600;
+    font-size: 18px;
+    font-family:"Caveat", cursive;
+}
+
+#addBtn:hover{
+    background-color: #fdcb6e;
+    font-size: 20px;
+}
+
+/* .bg-image{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+} */
+
+.note{
+    width: 400px;
+    height: 400px;
+    background-color: lavender;
+    margin: 15px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.tool{
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: end;
+}
+
+.tool i{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.tool i:hover{
+    font-size: 20px;
+}
+
+.note textarea{
+    border: none;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    resize: none;
+    padding: 10px;
+    font-size: 30px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight:800;
+    font-style: normal;
+    background-color: bisque;
+}
+
+.note textarea:focus{
+    outline: 0;
+    border: none;
+}
